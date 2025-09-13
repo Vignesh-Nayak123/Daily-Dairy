@@ -1,0 +1,17 @@
+{
+  "name": "daily-dairy",
+  "version": "1.0.0",
+  "description": "dairy-app/\r │\r ├── server.js          # Main server entry\r ├── config/\r │   └── db.js          # MongoDB connection\r ├── models/\r │   └── Diary.js       # Diary schema\r ├── routes/\r │   └── diaryRoutes.js # All endpoints\r ├── controllers/\r │   └── diaryController.js # Logic for routes\r └── public/\r     └── index.html     # Simple UI to write diary",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
+  }
+}
